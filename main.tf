@@ -9,7 +9,7 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 
   tags = {
-    Name = "Terraform-EC2-Instance"
+    Name = "Terraform-EC2-20-02-2025"
   }
 }
 
