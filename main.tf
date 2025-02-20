@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Change to your desired AWS region
+  region = "us-east-1"  # Change to your desired AWS region latest
 }
 
 resource "aws_instance" "web" {

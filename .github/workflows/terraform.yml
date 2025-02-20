@@ -20,7 +20,7 @@ jobs:
      
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      uses: hashicorp/terraform-github-action@master
+      uses: hashicorp/setup-terraform@v2
       with:
         tf_actions_version: 0.14.3 
         tf_actions_subcommand: 'init'
