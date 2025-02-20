@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami                    = "ami-053a45fff0a704a47"  # Amazon Linux 2 AMI (Check AWS Console for latest)
-  instance_type          = "t2.micro"  # Free-tier instance
+  instance_type          = "t3.micro"  # Free-tier instance
  # key_name               = "my-key-pair"  # Replace with your AWS Key Pair name
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 
